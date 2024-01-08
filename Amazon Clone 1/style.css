@@ -524,7 +524,17 @@ a{
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: end;
+}
+
+.back-left-arrow{
+    font-size: 40px;
+    align-self: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.back-left-arrow:hover{
+    /* margin-left: 15px; */
 }
 
 .back-info{
@@ -534,6 +544,8 @@ a{
     text-align: center;
     padding: 10px 14px 10px 14px;
     margin-bottom: 20px;
+    align-self: flex-end;
+    margin-right: 100px;
 }
 
 .back-info-link{
