@@ -235,6 +235,11 @@
 .foot-back-text {
     height: 16px;
     margin-top: 15px;
+    cursor: pointer;
+}
+
+.foot-back-text:hover{
+    font-size: 18px;
 }
 
 .foot-information {
@@ -254,6 +259,13 @@ ul {
     cursor: pointer;
 }
 
+.info-list-cont:hover{
+    text-decoration: underline;
+}
+
+#info-list-head:hover{
+    font-size: 17px;
+}
 
 .info1 {
     width: 135px;
@@ -725,6 +737,11 @@ a{
     background-color: #ffe093;
     border-radius: 8px;
     cursor: pointer;
+}
+
+.back-sign-button:hover{
+    background-color: gold;
+    font-size: 16px;
 }
 
 #img12:hover{
