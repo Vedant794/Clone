@@ -564,18 +564,26 @@ a{
     color: blue;
 }
 
+
+
 .image1row{
     height: 450px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    overflow: auto;
+    white-space: nowrap;
     background-color: #cccccc;
+}
+
+#img12:hover{
+    margin-top: 30px;
 }
 
 .back-box1{
     height: 400px;
     width: 400px;
     background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
     cursor: pointer;
 }
 
@@ -592,6 +600,9 @@ a{
     height: 400px;
     width: 400px;
     background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
     cursor: pointer;
 }
 
@@ -607,6 +618,9 @@ a{
     height: 400px;
     width: 400px;
     background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
     cursor: pointer;
 }
 
@@ -618,11 +632,28 @@ a{
     margin-top: 25px;
 }
 
+.back-box1_4{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.box1_4{
+    background-image: url("box1_4_image.jpg");
+    height: 350px;
+    width: 100%;
+    background-size: 100% 100%;
+    margin-top: 25px;
+}
+
 .image2row{
     height: 450px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    overflow: auto;
+    white-space: nowrap;
     background-color: #cccccc;
 }
 
@@ -630,6 +661,9 @@ a{
     height: 400px;
     width: 400px;
     background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
     cursor: pointer;
 }
 
@@ -645,6 +679,9 @@ a{
     height: 400px;
     width: 400px;
     background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
     cursor: pointer;
 }
 
@@ -660,6 +697,9 @@ a{
     height: 400px;
     width: 400px;
     background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
     cursor: pointer;
 }
 
@@ -671,18 +711,13 @@ a{
     margin-top: 25px;
 }
 
-.image3row{
-    height: 450px;
-    background-color: #cccccc;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
 .back-box7{
     height: 400px;
     width: 400px;
     background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
     cursor: pointer;
 }
 
@@ -694,10 +729,22 @@ a{
     margin-top: 25px;
 }
 
+
+
+.image3row{
+    height: 450px;
+    background-color: #cccccc;
+    overflow: auto;
+    white-space: nowrap;
+}
+
 .back-box8{
     height: 400px;
     width: 400px;
     background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
     cursor: pointer;
 }
 
@@ -709,10 +756,32 @@ a{
     margin-top: 25px;
 }
 
+.back-box9{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.box9-img{
+    background-image: url("box9_image.jpg");
+    height: 350px;
+    width: 100%;
+    background-size: 100% 100%;
+    margin-top: 25px;
+}
+
 .back-box10{
     height: 400px;
     width: 400px;
     background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
 }
 
 .box10-img{
@@ -721,7 +790,25 @@ a{
     width: 100%;
     background-size: 100% 100%;
     margin-top: 25px;
+    
+}
+
+.back-box11{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
     cursor: pointer;
+}
+
+.box11-img{
+    background-image: url("box11_image.jpeg");
+    height: 350px;
+    width: 100%;
+    background-size: 100% 100%;
+    margin-top: 25px;
 }
 
 .back-sign{
@@ -744,6 +831,3 @@ a{
     font-size: 16px;
 }
 
-#img12:hover{
-    margin-top: 30px;
-}
