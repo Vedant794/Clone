@@ -445,12 +445,16 @@ ul {
 
 .detail1{
     font-weight: bold;
-
+    cursor: pointer;
 }
 
 .detail2{
     color: #cccccc;
+    cursor: pointer;
+}
 
+.detail2:hover{
+    text-decoration: underline;
 }
 
 .detail-ads{
